@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Quantico-Regular
+font link: https://fonts.google.com/specimen/Quantico
+font author: MADType
+font author site: http://www.madtype.com/
+Slogan Font: SpaceMono-Regular.ttf
+
+icon designer: Mat Stevens
+icon designer link: /matstevens
+        
+{"bg":"transparent","icon-gradient-0":"#E90DDA","icon-gradient-1":"#15CFF1","font":"#000000","slogan":"#141414"}
+      

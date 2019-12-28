@@ -1,0 +1,15 @@
+language: go
+dist: xenial
+os : linux
+go:
+  - 1.14.x
+cache:
+  directories:
+    - $HOME/.cache/go-build
+    - $HOME/gopath/pkg/mod
+before_install:
+  - go get github.com/fzipp/gocyclo
+script:
+  # test general code with coverage
+  - go test -v -race -coverprofile=coverage.txt -covermode=atomic $(go list ./... | grep -v integration/profiling | grep -v proto)
+  - bash <(curl -s https://codecov.io/bash)
